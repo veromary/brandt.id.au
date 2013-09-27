@@ -1,0 +1,17 @@
+2009
+====
+
+:date: 2009-07-03 10:20
+:category: Photos
+:slug: 2009
+:author: Veronica Brandt
+:summary: Even fewer photos.
+
+.. image:: {filename}/images/bspuds.jpg
+   :alt: 'Bernard with potatoes'
+
+.. image:: {filename}/images/threeatcliffs.jpg
+   :alt: 'Three at the Cliffs'
+
+2009 was something of a year of change and upheaval. The Global Financial Crisis ate Peter's job, which took a little getting used to. On the upside, he had more time to fix things up around the house and we got a vegie patch going, hence this barrow of kipfler potatoes.
+

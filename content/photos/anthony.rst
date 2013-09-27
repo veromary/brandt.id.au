@@ -8,8 +8,9 @@ Anthony Brandt
 :author: Veronica Brandt
 :summary: Anthony's birth and baptism.
 
-.. image:: /images/anthony.jpg
- :align: left
+.. image:: {filename}/images/anthony.jpg
+   :alt: 'pic'
+   :align: left
 
 Born: at 3am
 
@@ -19,12 +20,20 @@ Length: 51cm
 
 Head circumference: 36cm
 
-.. image:: /images/aibbaptism.jpg
-.. image:: /images/aibfont.jpg
-.. image:: /images/aibwater.jpg
-.. image:: /images/aibgodparents.jpg
-.. image:: /images/aib.jpg
-.. image:: /images/aibchris.jpg
-.. image:: /images/aibparents.jpg
-.. image:: /images/aibeveryone.jpg
+.. image:: {filename}/images/aibbaptism.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/aibfont.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/aibwater.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/aibgodparents.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/aib.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/aibchris.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/aibparents.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/aibeveryone.jpg
+  :alt: 'pic'
 

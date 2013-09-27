@@ -8,8 +8,9 @@ Bernard Brandt
 :author: Veronica Brandt
 :summary: Bernard's birth and baptism.
 
-.. image:: /images/bbap1.jpg
- :align: left
+.. image:: {filename}/images/bbap1.jpg
+   :alt: 'pic'
+   :align: left
 
 Born at 5.04am
 
@@ -19,12 +20,20 @@ Length: 52cm
 
 Head circumference: 35.5cm
 
-.. image:: /images/bgbchris.jpg
-.. image:: /images/bgbjohn.jpg
-.. image:: /images/bbap2.jpg
-.. image:: /images/bgbdad.jpg
-.. image:: /images/bgbpatrick.jpg
-.. image:: /images/bgbcandle.jpg
-.. image:: /images/bbaptism.jpg
-.. image:: /images/bgbkneel.jpg
+.. image:: {filename}/images/bgbchris.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/bgbjohn.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/bbap2.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/bgbdad.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/bgbpatrick.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/bgbcandle.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/bbaptism.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/bgbkneel.jpg
+  :alt: 'pic'
 

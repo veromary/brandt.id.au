@@ -16,19 +16,27 @@ Length: 51cm
 
 Head circumference: 36.5cm
 
-.. image:: /images/bebe.jpg
-.. image:: /images/sleepy.jpg
+.. image:: {filename}/images/bebe.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/sleepy.jpg
+  :alt: 'pic'
 
 Baptised on the feast of Pentecost at the Church of the Maternal Heart of Mary, Lewisham.
 
 Godparents: Camelia O'Hare and Masaki Friesnegger
 
-.. image:: /images/cbaptism.jpg
+.. image:: {filename}/images/cbaptism.jpg
+  :alt: 'pic'
 
-.. image:: /images/chsleep.jpg
-.. image:: /images/patngd.jpg
-.. image:: /images/pat.jpg
-.. image:: /images/chlaugh.jpg
-.. image:: /images/mybruver.jpg
+.. image:: {filename}/images/chsleep.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/patngd.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/pat.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/chlaugh.jpg
+  :alt: 'pic'
+.. image:: {filename}/images/mybruver.jpg
+  :alt: 'pic'
 
 

@@ -8,18 +8,18 @@
 :author: Veronica Brandt
 :summary: More of Patrick and Christopher.
 
-.. image:: /images/patrhorse.jpg
-.. image:: /images/chris5mths.jpg
-.. image:: /images/boys.jpg
-.. image:: /images/mumnpat2.jpg
-.. image:: /images/dadnmolly.jpg
-.. image:: /images/family03.jpg
+.. image:: {filename}/images/patrhorse.jpg
+.. image:: {filename}/images/chris5mths.jpg
+.. image:: {filename}/images/boys.jpg
+.. image:: {filename}/images/mumnpat2.jpg
+.. image:: {filename}/images/dadnmolly.jpg
+.. image:: {filename}/images/family03.jpg
 
 
 
-.. image:: /images/patrunning.jpg
-.. image:: /images/chrisfingers.jpg
-.. image:: /images/rockmelon.jpg
+.. image:: {filename}/images/patrunning.jpg
+.. image:: {filename}/images/chrisfingers.jpg
+.. image:: {filename}/images/rockmelon.jpg
 
 
 

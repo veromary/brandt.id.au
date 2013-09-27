@@ -8,12 +8,12 @@
 :author: Veronica Brandt
 :summary: More of Patrick and Christopher and Anthony.
 
-.. image:: /images/3boys.jpg
-.. image:: /images/anthpnc.jpg
-.. image:: /images/pat4.jpg
+.. image:: {filename}/images/3boys.jpg
+.. image:: {filename}/images/anthnpnc.jpg
+.. image:: {filename}/images/pat4.jpg
 
 Great Train Weekend, Mt Vic
 
-.. image:: /images/trainride.jpg
-.. image:: /images/aball.jpg
+.. image:: {filename}/images/trainride.jpg
+.. image:: {filename}/images/aball.jpg
 

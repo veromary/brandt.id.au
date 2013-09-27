@@ -1,0 +1,21 @@
+2007
+====
+
+:date: 2007-12-03 10:20
+:tags: baby
+:category: Photos
+:slug: 2007
+:author: Veronica Brandt
+:summary: Now we have four boys.
+
+.. image:: {filename}/images/monkeys.jpg
+.. image:: {filename}/images/berant.jpg
+.. image:: {filename}/images/berboys.jpg
+
+.. image:: {filename}/images/bmelb.jpg
+
+Bernard and Veronica had a trip to Melbourne for a breastfeeding conference.
+
+.. image:: {filename}/images/bmelbo.jpg
+.. image:: {filename}/images/family07a.jpg
+
