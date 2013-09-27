@@ -1,0 +1,88 @@
+Latin
+#####
+:date: 2012-07-31 20:52
+:author: veronica
+:slug: latin
+
+`|The Catholic's Latin Instructor|`_\ Fr Edward Caswall was a quiet hero
+of the Oxford Movement who translated hymns and authored a few of his
+own too. He also wrote The Catholic's Latin Instructor `which you can
+buy as a paperback`_. It is also available at `the internet archive`_.
+
+The book is a series of exercises consisting of putting together the
+Latin from the Mass and other popular devotions with their English
+translations. It does include a short Latin Grammar, but much is just a
+straight patching of Latin onto English. Sections are designed to cater
+for different groups of the faithful - one for servers, another for
+choirs, though there's nothing to stop you going through all the
+sections.
+
+Because of this correspondence between the Latin and the English it
+lends itself to flash card programs like Hot Potatoes, Quizlet.com and
+Anki. So the plan here is to collect supporting online materials to make
+this book more useful.
+
+Table of Contents:
+------------------
+
+Part I
+------
+
+`Chapter 1 - Benediction`_
+
+Chapter 2 - Mass
+
+Chapter 3 - Serving at Mass
+
+Chapter 4 - Various Prayers and Offices
+ Section 1
+ Section 2
+
+Part II
+-------
+
+A Short Latin Grammar
+
+First Course [Exercises, Text, and Word-for-word Translation.]
+
+Chapter 1 - Sunday Vespers
+
+Chapter 2 - Additional Vesper Psalms
+
+Chapter 3 - Compline
+
+Second Course [Text and Word-for-word Translation.]
+
+Chapter 1 - Additional Portions of the Mass
+
+Chapter 2 - Requiem Mass
+
+Chapter 3 - Various Short Devotions
+
+Chapter 4 - Select Vesper Antiphons
+
+Chapter 5 - Select Hymns and Sequences
+
+Third Course [Text only.]
+
+Chapter 1 - Litany of the Saints
+ Chapter 2 - Select Portions of the Burial Office
+ Chapter 3 - Select Introits
+ Chapter 4 - Words of various Motets
+ Chapter 5 - Select Collects, etc.
+ Chapter 6 - Select Gospels, etc.
+ Chapter 7 - Creed of St Athanasius
+ Chapter 8 - Recordemini
+
+Little Dictionary
+
+Index to both parts
+
+.. _|image1|: http://www.lulu.com/shop/edward-caswall/the-catholics-latin-instructor/paperback/product-18844755.html
+.. _which you can buy as a paperback: http://www.lulu.com/shop/edward-caswall/the-catholics-latin-instructor/paperback/product-18844755.html?showPreview=true
+.. _the internet archive: http://archive.org/details/thecatholicslati00caswuoft
+.. _Chapter 1 - Benediction: http://brandt.id.au/latin/part-1-chapter-1/
+
+.. |The Catholic's Latin
+Instructor| image:: http://static.lulu.com/browse/product_thumbnail.php?productId=18844755&resolution=320
+.. |image1| image:: http://static.lulu.com/browse/product_thumbnail.php?productId=18844755&resolution=320

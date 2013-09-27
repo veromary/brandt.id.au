@@ -1,0 +1,25 @@
+2004
+====
+
+:date: 2004-08-03 10:20
+:tags: baby
+:category: Photos
+:slug: 2004
+:author: Veronica Brandt
+:summary: More of Patrick and Christopher.
+
+.. image:: /images/patrhorse.jpg
+.. image:: /images/chris5mths.jpg
+.. image:: /images/boys.jpg
+.. image:: /images/mumnpat2.jpg
+.. image:: /images/dadnmolly.jpg
+.. image:: /images/family03.jpg
+
+
+
+.. image:: /images/patrunning.jpg
+.. image:: /images/chrisfingers.jpg
+.. image:: /images/rockmelon.jpg
+
+
+
