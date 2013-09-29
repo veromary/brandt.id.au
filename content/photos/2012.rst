@@ -1,0 +1,26 @@
+2012
+====
+
+:date: 2012-07-03 10:20
+:category: Photos
+:slug: 2012
+:author: Veronica Brandt
+:summary: In which we did the Christus Rex Pilgrimage.
+
+We did the Christus Rex Pilgrimage!
+
+.. image:: {filename}/images/crex12tent.jpg
+   :alt: 'Outdoor Sung Latin Mass'
+
+And I am hopeless at taking good photos.
+
+.. image:: {filename}/images/crex124boys.jpg
+   :alt: 'Four boys'
+
+And we stayed in an old house, without electricity, it was the best.
+
+.. image:: {filename}/images/crex12togs.jpg
+   :alt: 'Togs farmhouse'
+
+
+

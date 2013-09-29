@@ -20,22 +20,27 @@ Length: 52cm
 Head circumference: 35.5cm
 
 .. image:: {filename}/images/dadnpat.jpg
-  :alt: 'pic'
+  :alt: 'Peter and Patrick'
+
 .. image:: {filename}/images/mumnpat.jpg
-  :alt: 'pic'
+  :alt: 'Veronica and Patrick'
 
 Baptised at the Church of the Maternal Heart of Mary, Lewisham.
 
 Godparents: Camelia O'Hare and Masaki Friesnegger
 
 .. image:: {filename}/images/baptism.jpg
-  :alt: 'pic'
+  :alt: 'Everyone'
+
 .. image:: {filename}/images/bubsmile.jpg
-  :alt: 'pic'
+  :alt: 'smile'
+
 .. image:: {filename}/images/quizzybub.jpg
-  :alt: 'pic'
+  :alt: 'Hmmm?'
+
 .. image:: {filename}/images/bigbub.jpg
-  :alt: 'pic'
+  :alt: 'Growing big'
+
 .. image:: {filename}/images/piggyback.jpg
-  :alt: 'pic'
+  :alt: 'Piggy back on Daddy'
 
