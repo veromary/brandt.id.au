@@ -1,0 +1,104 @@
+html,body{margin:0;padding:0}
+body{font: 76% arial,sans-serif;
+	text-align:center}
+p{margin:0 10px 10px}
+a{text-decoration:none; color:#2E4F6F;}
+img{
+	border:0;
+}
+h3,h4{
+    margin: 2px ;
+	padding-left:10px;
+	font-weight: bold;
+	font-size: medium;	
+}
+h2{
+	font-size: large;
+	padding-left: 10px;
+	
+}
+h1{
+	font-size: x-large;
+	padding-left: 10px;
+	
+}
+
+
+div#header{background-color:#ABD8C8;
+border-top:medium solid  #D0EEBC;
+background-image: url("lamp.gif");
+background-repeat: no-repeat;
+background-position: right;
+
+}
+div#header h1{height:80px;line-height:80px;margin:0;padding-left:10px;}
+
+
+div#container{text-align:left}
+div#content p{line-height:1.4}
+div#navigation{background:#ACC1D6}
+div#navigation ul{margin:15px 0; padding:5px; list-style-type:none;}
+div#navigation li{margin-bottom:5px;}
+
+div#extra{background:#74A493;}
+div#extra a{
+	padding:0;
+	
+}
+
+div#footer{background:#D0EEBC;}
+div#footer p{margin:0;padding:5px 10px}
+div#container{width:700px;margin:0 auto}
+div#content{float:left;width:500px}
+div#navigation{float:right;width:200px}
+div#buttons{
+	float: right;
+	width: 200px;
+	margin-top: auto;
+}
+
+div#extra{float:left;width:500px}
+div#footer{clear:both;width:100%}
+
+
+img.photo {
+	}
+
+p.boxoutleft {
+    float: left;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-width: medium;
+    border-color: #dfc071;
+    border-style: solid;
+    font-style: normal;
+    font-weight: normal;
+    font-family: serif;
+    font-size: 1.4em;
+}
+p.boxoutright {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0px;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-width: medium;
+    border-color: #dfc071;
+    border-style: solid;
+    font-style: normal;
+    font-weight: normal;
+    font-family: serif;
+    font-size: 1.4em;
+}

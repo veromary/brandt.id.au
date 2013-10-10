@@ -1,0 +1,20 @@
+
+div.main-page {
+margin-left: 11em; 
+padding-left: 1em; 
+}
+
+div.nav-offpath {
+background: #E5E5E5;  /* tmp */
+color: black; 
+left: 0; /* this puts the navbar into its place */ 
+position: absolute; 
+top: 0; /* this puts the navbar into its place */
+padding-left: 1%; 
+padding-right: 1%; 
+width: 10em;
+}
+
+div.nav-offpath ul {
+list-style-type: none; 
+} 

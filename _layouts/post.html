@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+{{ content }}
+</div>
+
+<p class="meta">Tagged <a href="{{ site.url }}/{{ page.tags }}">{{ page.tags }}</a>, in category <a href="{{ site.url }}/{{ page.categories | slugize }}">{{ page.category }}</a>.</p>
+
