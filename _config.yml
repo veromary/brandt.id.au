@@ -3,3 +3,8 @@ markdown: redcarpet
 pygments: true
 url: http://veromary.github.io/brandt.id.au
 #url: http://localhost:4000
+#url: http://brandt.id.au
+ftp_host: ftp.repleatur.net
+ftp_dir: /
+ftp_passive: false
+GOOGLE_ANALYTICS: UA-39801667-1
