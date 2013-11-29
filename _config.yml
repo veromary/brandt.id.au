@@ -4,6 +4,7 @@ pygments: true
 url: http://veromary.github.io/brandt.id.au
 #url: http://localhost:4000
 #url: http://brandt.id.au
+email: allofus@brandt.id.au
 ftp_host: ftp.repleatur.net
 ftp_dir: /
 ftp_passive: false
