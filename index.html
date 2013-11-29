@@ -7,7 +7,45 @@ title: Brandt Lab
 
 <p>The official page is <a href="http://peterbrandt.com.au">peterbrandt.com.au</a>.  That contains links to tumblr, facebook, pinterest, etsy.  And you are welcome to email him straight <a href="mailto:peter@brandt.id.au">peter@brandt.id.au</a></p>
 
+<h2>Recent posts</h2>
+<ul class="posts">  
+	{% for post in site.posts limit:5 %}  
+	   <li>  
+		   <span>{{ post.date | date_to_string }}</span> &raquo;  
+		   <a href="{{ BASE_PATH }}{{ post.url }}">  
+		   {{ post.title }}</a>  
+	   </li>  
+	{% endfor %}  
+</ul>
+
 <h2>Links for students</h2>
+
+<div class="container">
+    <div class="row-fluid">
+      <div class="span5">
+    <h3>Brandt Lab at EDU2.0</h3>
+	
+      <form name="form1" method="post" action="https://brandtlab.edu20.org/log_in/submit" target="_blank">
+    
+    
+      User ID:<br/>
+      <input type="text" name="userid" id="userid" class="edu20_widget_border"><br />
+      Password: <a href="http://brandtlab.edu20.org/log_in/forgot_password" target="_blank">(forgot?)</a><br/>
+      <input type="password" name="password" id="password" class="edu20_widget_border"><br/>
+          <input type="checkbox" name="remember" id="remember" />
+          Remember me? &nbsp;
+      <button type="submit"  value="Submit" >Log in</button>
+    </form> 
+  </div>
+  <div class="span7">
+  <p>
+  <a href="http://www.edu20.org">EDU2.0</a> is a Learning Management System.  We are trialling their free account with room for up to 2000 students (so if you want to join in the experiement, <a href="mailto:veronica@brandt.id.au?subject=Joining brandt lab at edu2.0&body=Hello,">just ask!</a>)
+  </p>
+<p>Currently our courses include: Catholic's Latin Instructor chapters (Benediction and Altar Server Latin), ML Nesbit's Grammar Land and CP Bowler's Living the Truth.  We take an old text book and put together online quizzes so students can log in and complete assessments to show their mastery of the content.</p>
+<p>There is a special account for parents, but as home educators you may prefer to join as a teacher instead.  That way you will have more access to the course materials and even be able to develop your own courses.</p>
+  </div>
+</div>
+</div>
 
 <p>Things we are currently studying</p>
 <ul>
@@ -16,6 +54,7 @@ title: Brandt Lab
 <li><a href="http://brandt.talentlms.com">Brandt Lab at TalentLMS</a> where you can find my <a href="http://brandt.talentlms.com/shared/start/key:GBKMFPJU">multiplication course</a></li>
 <li><a href="http://khanacademy.org">Khan Academy</a> for maths</li>
 </ul>
+
 
 <h3>Anything else?</h3>
 
