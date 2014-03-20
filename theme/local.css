@@ -6,7 +6,7 @@
   background-color:#EEE;
 }
 
-.navbar .nav > li > a { color: #FF0F00; }
+.navbar-nav > li > a { color: #FF0F00; }
 .navbar .divider-vertical { border-right: 1px solid #4D4D4D; }
 .navbar { margin-bottom: 4em; background-color: rgba(0,0,0,0)} 
 
