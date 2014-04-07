@@ -42,24 +42,12 @@ Also available as  <a href="fabiola/fabiolahtml.zip">fabiolahtml.zip</a>.
 
  <h1>Blog Posts</h1>
 <p>
-In April 2012 the brandt Lab went all Wordpress-y.  Now, October 2013, I'm having a go at migrating those posts back over into a Jekyll-y static site.
+In April 2012 the brandt Lab went all Wordpress-y.  Now, October 2013, I'm having a go at migrating those posts back over into a Jekyll-y static site.  The mastitis post above is still the most popular article, followed by  how to use hotpotatoes in Wordpress. It still seems a bit odd to convert that one over to static.
 </p>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}#disqus_thread">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> </li>
     {% endfor %}
   </ul>
 
-  <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'brandtlab'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-    </script>
- 
+  
