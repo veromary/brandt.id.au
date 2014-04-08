@@ -3,6 +3,8 @@ layout: default
 title: Education
 ---
 
+#Education
+
 Ideas for homeschooling and general teaching/learning stuff
 
 [The Catholic's Latin Instructor]({{ site.url }}/latin/) - a project to turn Fr Edward Caswall's book into an online course.

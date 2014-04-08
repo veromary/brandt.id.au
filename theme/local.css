@@ -24,8 +24,20 @@
     margin-top: 10px;
 }
 
-ul#sitelinks.nav.nav-list > li > a >i {
-    color: #1f334b;}
+li.nav-header{
+  display: block;
+  padding: 3px 15px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #999999;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+ul#site-links.nav.list-group > li > a {
+    padding: 3px 15px;
+}
 /* Styling for elements */
 a {color: #0A5693} 
 body {font-family: 'Gudea', 'Gill Sans', 'Arial'; font-size: 16px; line-height: 1.2em}
