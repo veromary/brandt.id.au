@@ -5,7 +5,6 @@ title: Computers
 
 #Computers
 
-[Hotpotatoes in Wordpress]({{ site.url }}/computers/hot-potatoes-in-wordpress.html)
 
 Here are the more recent posts:
 
