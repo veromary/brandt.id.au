@@ -1,0 +1,12 @@
+name: Brandt Lab
+author: Veronica Brandt
+markdown: kramdown
+pygments: true
+url: http://veromary.github.io/brandt.id.au
+#url: http://localhost:4000
+#url: http://brandt.id.au
+email: allofus@brandt.id.au
+GOOGLE_ANALYTICS: UA-39801667-1
+DISQUS_SITENAME: brandtlab
+
+

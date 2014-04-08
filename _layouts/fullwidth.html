@@ -17,10 +17,14 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap.no-icons.min.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+<!--    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap.no-icons.min.css" rel="stylesheet"> -->
     <link href="{{ site.url }}/theme/local.css" rel="stylesheet">
     <link href="{{ site.url }}/theme/pygments.css" rel="stylesheet">
-    <link href="{{ site.url }}/theme/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Gudea:400,400italic|Alegreya+SC' rel='stylesheet' type='text/css'>
 
 <!-- Favicons
@@ -41,12 +45,12 @@
 
 <header class="blog-header">
   <div class="container">
-    <div class="row-fluid">
-      <div class="span4">
+    <div class="row">
+      <div class="col-md-4">
 	<a href="{{ site.url }}" class="brand">{{site.name}}</a>
       </div>
 
-      <div class="span8" id="blog-nav">
+      <div class="col-md-8" id="blog-nav">
 	<ul class="nav nav-pills pull-right">
 	<li><a href="{{ site.url }}">Home</a></li>
 	  {% if DISPLAY_PAGES_ON_MENU %}
@@ -69,7 +73,7 @@
     
 <div class="container">
     <div class="content">
-    <div class="row-fluid">
+    <div class="row">
 
         <div class="span12">
  
@@ -85,15 +89,15 @@
 <div class="container">
   <div class="well" style="background-color: #E9EFF6">
     <div id="blog-footer">
-      <div class="row-fluid">
+      <div class="row">
 	{% if SOCIAL %}
-	<div class="social span2" align="center" id="socialist">
+	<div class="social col-md-2" align="center" id="socialist">
 	  <ul class="nav nav-list">
 	    <li class="nav-header">
 	      Social
 	    </li>
 	    {% for name,link in SOCIAL %}
-	    <li><a href="{{ link }}"><i class="icon-{{ name }}" style="color: #1f334b"></i>{{name}}</a></li>
+	    <li><a href="{{ link }}"><i class="fa fa-{{ name }}" style="color: #1f334b"></i>{{name}}</a></li>
 	    {% endfor %}
             {% if EMAIL%}
             <a href="mailto:{{ EMAIL}}"><i class="icon-envelope" style="color: #1f334b" ></i> email</a>
@@ -103,7 +107,7 @@
 	</div>
 	{% endif %}
         {% if LINKS %}
-        <div class="links span2" align="center">
+        <div class="links col-md-2" align="center">
           <ul class="nav nav-list">
             <li class="nav-header"> 
               Links
@@ -115,14 +119,14 @@
           </ul>
         </div>
         {% endif %}
-<div class="span9" id="colophon">
+<div class="col-md-9" id="colophon">
   <h2>The Brandts</h2>
   <p align="left">
 <a href="http://peterbrandt.com.au"><img src="{{ site.url }}/images/fam-pja.jpg"></a><a href="http://veromarybrrr.wordpress.com"><img src="{{ site.url }}/images/fam-vm.jpg"></a><a href="http://diy.org/windpower"><img src="{{ site.url }}/images/fam-pmj.jpg"></a><a href="http://diy.org/mischiefloki"><img src="{{ site.url }}/images/fam-cp.jpg"></a><a href="http://diy.org/huskyhunter"><img src="{{ site.url }}/images/fam-a.jpg"></a><a href="http://diy.org/josefjack"><img src="{{ site.url }}/images/fam-bg.jpg"></a><a href="#"><img src="{{ site.url }}/images/fam-e.jpg"></a>
 </p>
 <p>A family of seven in the Blue Mountains.  Catholic, homeschooling, some of us drawing, some of us singing, some of us coding, so had to make a web page about it.</p>
 </div>
-	<div class="site-nav span3" align="center">
+	<div class="site-nav col-md-3" align="center">
           <ul class="nav nav-list" id="site-links">
             <li class="nav-header"> 
               Site

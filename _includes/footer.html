@@ -1,0 +1,98 @@
+<!--footer-->
+<div class="container">
+  <div class="well" style="background-color: #E9EFF6">
+    <div id="blog-footer">
+      <div class="row">
+	{% if SOCIAL %}
+	<div class="social col-md-2" align="center" id="socialist">
+	  <ul class="nav nav-list">
+	    <li class="nav-header">
+	      Social
+	    </li>
+	    {% for name,link in SOCIAL %}
+	    <li><a href="{{ link }}"><i class="fa fa-{{ name }}" style="color: #1f334b"></i>{{name}}</a></li>
+	    {% endfor %}
+            {% if EMAIL%}
+            <a href="mailto:{{ EMAIL}}"><i class="fa fa-envelope" style="color: #1f334b" ></i> email</a>
+            {% endif %}
+
+	  </ul>
+	</div>
+	{% endif %}
+        {% if LINKS %}
+        <div class="links col-md-2" align="center">
+          <ul class="nav nav-list">
+            <li class="nav-header"> 
+              Links
+            </li>
+            
+            {% for name, link in LINKS %}
+            <li><a href="{{ link }}">{{ name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+<div class="col-md-9" id="colophon">
+  <h2>The Brandts</h2>
+  <p align="left">
+<a href="http://peterbrandt.com.au"><img src="{{ site.url }}/images/fam-pja.jpg"></a><a href="http://veromarybrrr.wordpress.com"><img src="{{ site.url }}/images/fam-vm.jpg"></a><a href="http://diy.org/windpower"><img src="{{ site.url }}/images/fam-pmj.jpg"></a><a href="http://diy.org/mischiefloki"><img src="{{ site.url }}/images/fam-cp.jpg"></a><a href="http://diy.org/huskyhunter"><img src="{{ site.url }}/images/fam-a.jpg"></a><a href="http://diy.org/josefjack"><img src="{{ site.url }}/images/fam-bg.jpg"></a><a href="#"><img src="{{ site.url }}/images/fam-e.jpg"></a>
+</p>
+<p>A family of seven in the Blue Mountains.  Catholic, homeschooling, some of us drawing, some of us singing, some of us coding, so had to make a web page about it.</p>
+</div>
+	<div class="site-nav col-md-3" align="center">
+          <ul class="nav nav-list" id="site-links">
+            <li class="nav-header"> 
+              Site
+            </li>
+            <li><a href="{{ site.url }}"><i class="fa fa-home" style="color: #1f334b">
+                </i>Home</a></li>
+            <li><a href="mailto:allofus@brandt.id.au"><i class="fa fa-envelope" style="color: #1f334b" ></i> email</a></li>
+            <li><a href="{{ site.url }}/archives.html"><i class="fa fa-list" style="color: #1f334b">
+                </i>Archives</a></li>
+	    <li><a href="https://github.com/veromary/brandt.id.au"><i class="fa fa-github" style="color: #1f334b">
+                </i>Github</a></li>
+	    
+	    {% if FEED_RSS %}
+	    <li> <a href="{{ site.url }}/{{ FEED_RSS }}" rel="alternate">
+                <i class="fa fa-rss" style="color: #1f334b"></i>
+                RSS Feed</a></li>
+	    {% endif %}
+            <li><a href="{{ site.url }}/atom.xml" rel="alternate">
+                <i class="fa fa-rss-sign" style="color: #1f334b"></i>
+                Atom Feed</a></li>
+	  </ul>
+
+        </div>
+
+      </div> <!--end of fluid row-->
+    </div> <!--end of blog-footer-->
+    <hr />
+    <p align="center"><a href="{{ site.url }}">{{ site.name }}</a>
+      &copy; {{ site.author }}
+    Adapted from the Pelican theme <a href="https://github.com/getpelican/pelican-themes/tree/master/built-texts">built-texts</a>.
+        Icons by <a href="http://fortawesome.github.com/Font-Awesome">Font Awesome</a> and 
+        <a href="http://gregoryloucas.github.com/Font-Awesome-More">Font Awesome More</a></p>
+
+  </div> <!--end of well -->
+</div> <!--end of container -->
+
+<!--/footer-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39801667-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
