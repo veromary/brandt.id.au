@@ -14,7 +14,7 @@ Here are the more recent posts:
 
 {% for post in site.posts %}
 {% if post.category contains 'Education' %}
-* {{ post.date | date_to_string }} [{{ post.title }}]({{ post.url }})
+* {{ post.date | date_to_string }} [{{ post.title }}]({{ site.url }}{{ post.url }})
 {% endif %}
 {% endfor %}
 
