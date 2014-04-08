@@ -2,6 +2,7 @@
 layout: post
 title: Hot Potatoes in Wordpress
 date: 2014-04-07 14:50:00 +1100
+category: Computers
 ---
 
 This page started life as an incoherent test post, but turns out to be one of the most popular articles, so here goes making it coherent.
