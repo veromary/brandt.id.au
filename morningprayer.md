@@ -33,3 +33,8 @@ O my God, I am sorry and beg pardon for all my sins, and detest them above all t
 
 ###[Divinum Officium](http://divinumofficium.com/cgi-bin/horas/Pofficium.pl?command=next)
 This link is set to get the mobile version for tomorrow as we're in Australia.
+
+###Daily Readings
+
+Fr Lauer's plan to read [Through the Bible in One Year](http://www.presentationministries.com/brochures/ThroughBible.asp)
+
