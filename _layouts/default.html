@@ -11,34 +11,8 @@
     </head>
     <body>
 
-<header class="blog-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-	<a href="{{ site.url }}" class="brand">{{site.name}}</a>
-      </div>
+{% include header.html %}   
 
-      <div class="col-md-8" id="blog-nav">
-	<ul class="nav nav-pills pull-right">
-	<li><a href="{{ site.url }}">Home</a></li>
-	  {% if DISPLAY_PAGES_ON_MENU %}
-          {% for page in PAGES %}
-            <li><a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a></li>
-            {% endfor %}
-            {% endif %}
-{% for category in site.categories %}
-<li style="text-transform: capitalize"> <a href="{{ site.url }}/{{ category | first | slugize }}">{{ category | first }}</a></li>
-{% endfor %}
-	   {% for cat, null in categories %}
-	    <li {% if cat == category %} class="active" {% endif %}>
-	      <a href="{{ site.url }}/{{ cat.url }} ">{{ cat }}</a>
-	   {% endfor %}
-	</ul>
-      </div>
-    </div> <!-- End of fluid row-->
-  </div>   <!-- End of Container-->
-</header>
-    
 <div class="container">
     <div class="content">
     <div class="row">

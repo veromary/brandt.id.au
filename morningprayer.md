@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: narrow
 title: Morning Prayer
 ---
 
@@ -29,7 +29,7 @@ O my God, I love Thee with my whole heart and above all things because Thou art 
 
 ###Act of Contrition
 
-O my God, I am sorry and beg pardon for all my sins, and detest them above all things, because they deserve Thy dreadful punishments, because they have crucified my loving Saviour Jesus Christ, and, most of all, because they offind Thine Infinite goodness; and I firmly resolve by the help of Thy grace never to offend Thee again, and carefully to avoid the occasions of sin. Amen.
+O my God, I am sorry and beg pardon for all my sins, and detest them above all things, because they deserve Thy dreadful punishments, because they have crucified my loving Saviour Jesus Christ, and, most of all, because they offend Thine Infinite goodness; and I firmly resolve by the help of Thy grace never to offend Thee again, and carefully to avoid the occasions of sin. Amen.
 
 ###[Divinum Officium](http://divinumofficium.com/cgi-bin/horas/Pofficium.pl?command=next)
 This link is set to get the mobile version for tomorrow as we're in Australia.

@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: fullwidth
 ---
+
 <h2>{{ page.title }}</h2>
+<div class="row">
+<div class="col-sm-2">
 <p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
-
+<p class="meta">{% if page.tag %}tagged <a href="{{ site.url }}/{{ page.tags }}">{{ page.tags }}</a>{% endif %} {% if page.category %} filed under <a href="{{ site.url }}/{{ page.categories | slugize }}">{{ page.category }}</a>{% endif %}</p>
 <div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-layout="button" data-action="like" data-show-faces="false" data-share="true" style="vertical-align:top;zoom:1;*display:inline"></div>
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ page.url }}" data-via="veromarybrrr" data-count="none" data-dnt="true">Tweet</a>
@@ -14,8 +14,12 @@ layout: default
 
 
 </div>
+<div class="col-md-8 col-sm-10">
+<div class="post">
+{{ content }}
 
-<p class="meta">Tagged <a href="{{ site.url }}/{{ page.tags }}">{{ page.tags }}</a>, in category <a href="{{ site.url }}/{{ page.categories | slugize }}">{{ page.category }}</a>.</p>
+
+</div>
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -44,5 +48,7 @@ layout: default
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
+</div>
+</div>
     </div>  
 
