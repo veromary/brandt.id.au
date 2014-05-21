@@ -38,3 +38,5 @@ This link is set to get the mobile version for tomorrow as we're in Australia.
 
 Fr Lauer's plan to read [Through the Bible in One Year](http://www.presentationministries.com/brochures/ThroughBible.asp)
 
+Mr William Michael's lessons for each day. [Beatitudes Bible Program](https://sites.google.com/a/claaonline.com/beatitudes-bible-program/today-s-lesson)
+
