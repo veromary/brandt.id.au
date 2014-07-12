@@ -34,3 +34,8 @@ Veronica
 ###PS: the Github Pages way
 
 There is another way that is free and very satisfying using [Github Pages](https://pages.github.com/).  It is also very useful for collaborative projects and keeping track of changes.  There is a lot to learn in the process, but if you are passionate about education, then that can be a bonus.
+
+###PPS: Quiz Faber
+
+An Italian programmer from Turin has made an awesome program that's even better than Hot Potatoes, and he's still working on it: [Quiz Faber](http://www.lucagalli.net/quizfaber/index.php/en/)
+
