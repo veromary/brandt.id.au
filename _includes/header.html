@@ -16,7 +16,7 @@
 {% for category in site.categories %}
 <li style="text-transform: capitalize"> <a href="{{ site.url }}/{{ category | first | slugize }}">{{ category | first }}</a></li>
 {% endfor %}
-	   {% for cat, null in categories %}
+	   {% for cat in categories %}
 	    <li {% if cat == category %} class="active" {% endif %}>
 	      <a href="{{ site.url }}/{{ cat.url }} ">{{ cat }}</a>
 	   {% endfor %}

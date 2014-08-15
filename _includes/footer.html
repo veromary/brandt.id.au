@@ -3,36 +3,7 @@
   <div class="well" style="background-color: #E9EFF6">
     <div id="blog-footer">
       <div class="row">
-	{% if SOCIAL %}
-	<div class="social col-sm-2" align="center" id="socialist">
-	  <ul class="nav nav-list">
-	    <li class="nav-header">
-	      Social
-	    </li>
-	    {% for name,link in SOCIAL %}
-	    <li><a href="{{ link }}"><i class="fa fa-{{ name }}" style="color: #1f334b"></i>{{name}}</a></li>
-	    {% endfor %}
-            {% if EMAIL%}
-            <a href="mailto:{{ EMAIL}}"><i class="fa fa-envelope" style="color: #1f334b" ></i> email</a>
-            {% endif %}
-
-	  </ul>
-	</div>
-	{% endif %}
-        {% if LINKS %}
-        <div class="links col-sm-2" align="center">
-          <ul class="nav nav-list">
-            <li class="nav-header"> 
-              Links
-            </li>
-            
-            {% for name, link in LINKS %}
-            <li><a href="{{ link }}">{{ name }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-<div class="col-sm-9" id="colophon">
+	<div class="col-sm-9" id="colophon">
   <h2>The Brandts</h2>
   <p align="left">
 <a href="http://peterbrandt.com.au"><img src="{{ site.url }}/images/fam-pja.jpg"></a><a href="http://veromarybrrr.wordpress.com"><img src="{{ site.url }}/images/fam-vm.jpg"></a><a href="http://patrick.brandt.id.au"><img src="{{ site.url }}/images/fam-pmj.jpg"></a><a href="http://diy.org/mischiefloki"><img src="{{ site.url }}/images/fam-cp.jpg"></a><a href="http://anthony.brandt.id.au"><img src="{{ site.url }}/images/fam-a.jpg"></a><a href="http://diy.org/josefjack"><img src="{{ site.url }}/images/fam-bg.jpg"></a><a href="#"><img src="{{ site.url }}/images/fam-e.jpg"></a>
