@@ -1,6 +1,6 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2014.11.1)  1 DEC 2014 20:52
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2014.11.1)  2 DEC 2014 07:24
  restricted \write18 enabled.
-**main-lualatex.tex
+**main-lualatex
 (./main-lualatex.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 27 languages loaded.
@@ -579,7 +579,7 @@ luaotfload:  then use the possibly updated libraries. The merged
 luaotfload:  version is not supported as it is a frozen instance.
 luaotfload:  Problems can be reported to the ConTeXt mailing list."
 luaotfload: pop namespace from font loader -- non-destructive
-luaotfload: fontloader loaded in 0.064 seconds
+luaotfload: fontloader loaded in 0.049 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -841,8 +841,8 @@ LaTeX Info: Redefining \upshape on input line 2132.
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/veronica/.texmf-var/luatex-cache/generic/fonts/otf/linlibertine-r.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 23 (LinLibertineO) defines feature rtbd for script latn
-luaotfload: font no 23 (LinLibertineO) defines feature rtbd for script latn
+luaotfload: font no 23 (LinLibertineO) defines feature mark for script latn
+luaotfload: font no 23 (LinLibertineO) defines feature mark for script latn
 \g__fontspec_family_LinuxLibertineO_int=\count289
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
@@ -1245,22 +1245,26 @@ luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
-(./proc2015.tex
+(./proc2015shiftcc.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
 at position 1 in 'hyphenate'
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
-Underfull \hbox (badness 10000) in paragraph at lines 4--985
+Underfull \hbox (badness 10000) in paragraph at lines 4--998
 []
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Class memoir Warning: The material used in the headers is too large
 (17.49998pt) for the given head height (0.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 985.
+(in both cases you will find help in the memoir manual). on input line 998.
 
 
 Overfull \vbox (17.49998pt too high) has occurred while \output is active []
@@ -1279,7 +1283,7 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"
 Class memoir Warning: The material used in the headers is too large
 (17.49998pt) for the given head height (0.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 46.
+(in both cases you will find help in the memoir manual). on input line 50.
 
 
 Overfull \vbox (17.49998pt too high) has occurred while \output is active []
@@ -1288,21 +1292,21 @@ Overfull \vbox (17.49998pt too high) has occurred while \output is active []
 [2] (./main-lualatex.aux))
 
 Here is how much of LuaTeX's memory you used:
- 19399 strings out of 494474
- 156265,552014 words of node,token memory allocated
- 102088 words of node memory still in use:
-   3316 hlist, 554 vlist, 2215 rule, 5524 glue, 2214 kern, 2 penalty, 1103 glyph
-, 2239 attribute, 187 glue_spec, 1124 attribute_list, 2 write, 1106 pdf_colorsta
+ 19398 strings out of 494474
+ 156268,552014 words of node,token memory allocated
+ 103553 words of node memory still in use:
+   3364 hlist, 562 vlist, 2247 rule, 5604 glue, 2246 kern, 2 penalty, 1119 glyph
+, 2271 attribute, 187 glue_spec, 1140 attribute_list, 2 write, 1122 pdf_colorsta
 ck nodes
-   avail lists: 2:6777,3:1100,4:454,5:1390,6:1404,7:369,9:726,10:33
+   avail lists: 2:6966,3:1115,4:467,5:1414,6:1454,7:382,9:736,10:38
  22589 multiletter control sequences out of 65536+600000
- 39 fonts using 5141479 bytes
- 61i,11n,60p,592b,244s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 39 fonts using 5141623 bytes
+ 61i,11n,60p,588b,244s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fo
 nts/opentype/linux-libertine/LinLibertine_RB.otf></usr/share/fonts/opentype/linu
 x-libertine/LinLibertine_RI.otf></usr/share/fonts/opentype/linux-libertine/LinLi
 bertine_R.otf>
-Output written on main-lualatex.pdf (2 pages, 25236 bytes).
+Output written on main-lualatex.pdf (2 pages, 25352 bytes).
 
 PDF statistics: 39 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
