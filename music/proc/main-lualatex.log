@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2014.11.1)  1 DEC 2014 19:50
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2014.11.1)  1 DEC 2014 20:52
  restricted \write18 enabled.
 **main-lualatex.tex
 (./main-lualatex.tex
@@ -579,7 +579,7 @@ luaotfload:  then use the possibly updated libraries. The merged
 luaotfload:  version is not supported as it is a frozen instance.
 luaotfload:  Problems can be reported to the ConTeXt mailing list."
 luaotfload: pop namespace from font loader -- non-destructive
-luaotfload: fontloader loaded in 0.049 seconds
+luaotfload: fontloader loaded in 0.064 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -841,8 +841,8 @@ LaTeX Info: Redefining \upshape on input line 2132.
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/veronica/.texmf-var/luatex-cache/generic/fonts/otf/linlibertine-r.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 23 (LinLibertineO) defines feature lfbd for script latn
-luaotfload: font no 23 (LinLibertineO) defines feature lfbd for script latn
+luaotfload: font no 23 (LinLibertineO) defines feature rtbd for script latn
+luaotfload: font no 23 (LinLibertineO) defines feature rtbd for script latn
 \g__fontspec_family_LinuxLibertineO_int=\count289
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
@@ -1103,49 +1103,27 @@ Lua module: gregoriotex 2013/12/29 2.4 GregorioTeX module.
 \gretempfactor=\count304
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/veronica/.texmf-var/luatex-cache/generic/fonts/otf/gresym.luc))))
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip304
-\f@ncyO@elh=\skip305
-\f@ncyO@erh=\skip306
-\f@ncyO@olh=\skip307
-\f@ncyO@orh=\skip308
-\f@ncyO@elf=\skip309
-\f@ncyO@erf=\skip310
-\f@ncyO@olf=\skip311
-\f@ncyO@orf=\skip312
-
-
-! LaTeX Error: Command \footruleskip already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 ...mmand{\footruleskip}{.3\normalbaselineskip}
-                                                  
-? 
-) (./main-lualatex.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 26.
+(./main-lualatex.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 21.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    ... okay on input line 21.
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1195,64 +1173,64 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 26.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 26.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 26.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 26.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 26.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 26.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 26.
-LaTeX Font Info:    Redeclaring math accent \check on input line 26.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 26.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 26.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 26.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 26.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 21.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 21.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 21.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 21.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 21.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 21.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 21.
+LaTeX Font Info:    Redeclaring math accent \check on input line 21.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 21.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 21.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 21.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 26.
+(Font)              `operators' in the math version `normal' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU2/LinuxLibertineO(0)/m/n on input line
- 26.
+ 21.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 26.
+(Font)              `operators' in the math version `bold' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU2/LinuxLibertineO(0)/m/n on input lin
-e 26.
+e 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU2/LinuxLibertineO(0)/m/n --> EU2/LinuxLibertineO(0)/m/
-n on input line 26.
+n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU2/LinuxLibertineO(0)/m/it on input li
-ne 26.
+ne 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU2/LinuxLibertineO(0)/bx/n on input li
-ne 26.
+ne 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 26.
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 26.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU2/LinuxLibertineO(0)/m/n --> EU2/LinuxLibertineO(0)/bx
-/n on input line 26.
+/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU2/LinuxLibertineO(0)/bx/it on input 
-line 26.
+line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 26.
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 26.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 21.
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
@@ -1278,6 +1256,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--985
 []
  []
 
+
+Class memoir Warning: The material used in the headers is too large
+(17.49998pt) for the given head height (0.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 985.
+
+
+Overfull \vbox (17.49998pt too high) has occurred while \output is active []
+
+
 [1
 
 {/home/veronica/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -1286,25 +1274,35 @@ from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
 luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt" [2]
-(./main-lualatex.aux))
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+
+Class memoir Warning: The material used in the headers is too large
+(17.49998pt) for the given head height (0.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 46.
+
+
+Overfull \vbox (17.49998pt too high) has occurred while \output is active []
+
+
+[2] (./main-lualatex.aux))
 
 Here is how much of LuaTeX's memory you used:
- 19528 strings out of 494474
- 156261,552014 words of node,token memory allocated
- 103095 words of node memory still in use:
-   3318 hlist, 554 vlist, 2216 rule, 5535 glue, 2225 kern, 3 penalty, 1163 glyph
-, 2428 attribute, 191 glue_spec, 1184 attribute_list, 2 write, 1 local_par, 1106
- pdf_colorstack nodes
-   avail lists: 1:1,2:6824,3:1100,4:459,5:1392,6:1422,7:368,9:726,10:33
- 22711 multiletter control sequences out of 65536+600000
+ 19399 strings out of 494474
+ 156265,552014 words of node,token memory allocated
+ 102088 words of node memory still in use:
+   3316 hlist, 554 vlist, 2215 rule, 5524 glue, 2214 kern, 2 penalty, 1103 glyph
+, 2239 attribute, 187 glue_spec, 1124 attribute_list, 2 write, 1106 pdf_colorsta
+ck nodes
+   avail lists: 2:6777,3:1100,4:454,5:1390,6:1404,7:369,9:726,10:33
+ 22589 multiletter control sequences out of 65536+600000
  39 fonts using 5141479 bytes
- 61i,11n,60p,613b,254s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61i,11n,60p,592b,244s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fo
 nts/opentype/linux-libertine/LinLibertine_RB.otf></usr/share/fonts/opentype/linu
 x-libertine/LinLibertine_RI.otf></usr/share/fonts/opentype/linux-libertine/LinLi
 bertine_R.otf>
-Output written on main-lualatex.pdf (2 pages, 25695 bytes).
+Output written on main-lualatex.pdf (2 pages, 25236 bytes).
 
 PDF statistics: 39 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
