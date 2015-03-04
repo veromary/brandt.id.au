@@ -1,7 +1,7 @@
 name: Brandt Lab
 author: Veronica Brandt
 markdown: kramdown
-highlighter: true
+highlighter: pygments
 #url: http://veromary.github.io/brandt.id.au
 #url: http://localhost:4000
 url: http://www.brandt.id.au
