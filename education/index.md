@@ -1,13 +1,21 @@
 ---
-layout: withlogin
+layout: default
 title: Education
 ---
 
 #Education
 
-<p>Things we are currently studying</p>
+##Recent posts
+
+{% for post in site.posts %}
+{% if post.category contains 'Education' %}
+* {{ post.date | date_to_string }} [{{ post.title }}]({{ site.url }}{{ post.url }})
+{% endif %}
+{% endfor %}
+
+##Things we are currently studying
 <ul>
-<li><a href="http://www.classicalliberalarts.com/family/index.cfm">Classical Liberal Arts Academy</a> for Catechism and Grammar.</li>
+<li><a href="http://www.classicalliberalarts.com/family/index.cfm">Classical Liberal Arts Academy</a> for Catechism and Grammar. Our sub expires at the end of June 2015, and we do not plan to move into the new system, so we hope to have a good go at finishing some courses.  Wish us luck!</li>
 <li><a href="http://mathsonline.com.au/login">Maths Online</a> - A nice, clear, uncluttered Australian Maths program.</li>
 <li><a href="http://learnenglish.britishcouncil.org/en/">British Council's Learn English</a> - aimed at adults learning English as a second language, but very interesting.  Also has a Kids and Teen section.</li>
 <li><a href="http://codecademy.com">codecademy</a> - for learning some programming.  Also <a href="http://scratch.mit.edu">Scratch</a>.</li>
@@ -17,18 +25,11 @@ title: Education
 </ul>
 
 
-Ideas for homeschooling and general teaching/learning stuff
+##Ideas for homeschooling and general teaching/learning stuff
 
 [The Catholic's Latin Instructor]({{ site.url }}/latin/) - a project to turn Fr Edward Caswall's book into an online course.
 
 Here are two old pages:
 [Home Education]({{ site.url }}/homeschool.html) and [Teaching]({{ site.url }}/teaching.html) resources, ideas, recommended reading and things like that. Lots of book reviews.
 
-Here are the more recent posts:
-
-{% for post in site.posts %}
-{% if post.category contains 'Education' %}
-* {{ post.date | date_to_string }} [{{ post.title }}]({{ site.url }}{{ post.url }})
-{% endif %}
-{% endfor %}
 
