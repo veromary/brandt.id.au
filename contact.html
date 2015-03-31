@@ -1,12 +1,23 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
 <h1>Contact us</h1>
 <p>&nbsp;</p>
 
+
+  <form action="https://formspree.io/{{ site.email }}" method="POST" role="form">
+    <input type="text" name="email" placeholder="Email Address" class="form-control">
+    <textarea type="text" name="content" class="form-control" rows="5" placeholder="What would you like to say?"></textarea>
+<button type="submit" class="btn btn-default">Submit</button>
+  </form>
+
+
 <p>
-Email <a href="mailto:veronica@brandt.id.au">veronica@brandt.id.au</a>
+Or, if you prefer, you can email <a href="mailto:veronica@brandt.id.au">veronica@brandt.id.au</a>
 </p>
 
+<p>Or you can subscribe to further Brandt Lab updates by email:</p>
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=brandtlab', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Enter your email address:</p><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="brandtlab" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /><p>Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></p></form>
