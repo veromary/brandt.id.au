@@ -19,7 +19,7 @@ That's part of the fun of DIY homeschooling - so many options.
 
 And how I made the sample sheet:
 
-```latex
+~~~latex
 \documentclass{article}
 
 \usepackage{la}
@@ -86,7 +86,7 @@ TW Cal 14
 \seyes{\phantom{The quick brown fox jumps over the lazy dog \quad}}
 
 \end{document}
-```
+~~~
 
 Theoretically it should work for any fonts - maybe next thing is to try using it with [Christopher Jarman](http://quilljar.users.btopenworld.com/) [Handwriting Fonts](http://quilljar.users.btopenworld.com/fonts.html) (make sure you download the PC truetype fonts - unless you have a RISC/Acorn computer and know what you're doing).
 
