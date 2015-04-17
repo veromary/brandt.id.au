@@ -1,5 +1,5 @@
 ---
-layout: withlogin
+layout: default
 title: Catholic's Latin Instructor
 ---
 
