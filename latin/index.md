@@ -20,8 +20,8 @@ Table of Contents:
 ### Part I
 
 * Chapter 1 – [Benediction]({{ site.url }}/latin/benediction.html)
-* Chapter 2 – Mass
-* Chapter 3 – Serving at Mass
+* Chapter 2 – [Mass]({{ site.url }}/latin/mass.html)
+* Chapter 3 – [Serving at Mass]({{ site.url }}/latin/server.html)
 * Chapter 4 – Various Prayers and Offices
        + Section 1
        + Section 2
