@@ -4,9 +4,9 @@ category: Education
 layout: post
 ---
 
-<script type="text/javascript"> var display = "random" </script><script type="text/javascript" src="http://widgets.bestmoodle.net/scripts/lolcats.js"></script>
+![multum legendum non multa]({{ site.url }}/images/multumlegendumnonmulta.jpg)
 
-I feel like I've been asleep for years.  I'm finally waking up to see what needs to be done.
+**Multum legendum, non multa &mdash; read much, not many.** There is a tendency to multiply courses and programs and curricula in homeschooling.  Latin is one of the areas where many people attempt it but few actually succeed in becoming comfortable with reading Latin.
 
 First there were my mother's books: The Approach to Latin by Patterson and McNaughton.  These were the references which seemed most common amongst Australian students.  They start at Amo, Amas, Amat and proceed along with some first declension nouns.  They include lots of drawings of Roman life.  Grammar is kinda front in center and words are chosen around that.
 
@@ -29,5 +29,7 @@ The Fabula Facilis collection is a good place to start:
 Also the [Fabulae Vulgatae](http://mythfolklore.net/bible) is very handy too.
 
 So, this has turned into a laundry list of resources.  I feel like I've been waiting for the perfect one, and really all I had to see was that I am learning along the way and no one has a magic wand.  If I can be an enthusiastic Latin teacher then that will be the biggest help to my students.
+
+Right now, each day I find a short passage, either from Fr Foster's course, the Latin Vulgate Bible, the Mass, Laura Gibbs' Fabula Facilis or even Caesar's Gallic Wars, and we work out what it means, pick out some words and rearrange them to make sentences, changing the endings as far as we know how.
 
 Latin washes over us on a daily basis, thanks to our daily prayers: the Rosary, Prime from the Little Office of the Blessed Virgin Mary and Roman Compline.  Each week we have the Latin of the Mass.  If we just keep our eyes and ears open and think, then there will be manifold opportunities for growing in understanding.
