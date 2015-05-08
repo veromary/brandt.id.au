@@ -4,6 +4,8 @@ category: Education
 layout: post
 ---
 
+<script type="text/javascript"> var display = "random" </script><script type="text/javascript" src="http://widgets.bestmoodle.net/scripts/lolcats.js"></script>
+
 I feel like I've been asleep for years.  I'm finally waking up to see what needs to be done.
 
 First there were my mother's books: The Approach to Latin by Patterson and McNaughton.  These were the references which seemed most common amongst Australian students.  They start at Amo, Amas, Amat and proceed along with some first declension nouns.  They include lots of drawings of Roman life.  Grammar is kinda front in center and words are chosen around that.
@@ -18,10 +20,14 @@ There is also [Dowling's Method](https://www.rci.rutgers.edu/~wcd/Latin.htm) - w
 
 And how could I forget, [Fr Caswall's Catholic's Latin Instructor](http://www.brandt.id.au/latin/).  This one doesn't claim to be a proper method of learning Latin, just a shortcut for those who just want to follow the common prayers of the Catholic Church, but it does have a handy grammar summary in the middle.
 
-[Laura Gibbs](http://bestlatin.blogspot.com.au/) is another inspirational teacher who has lots of Latin resources such us 1001 Fables and Vulgate Verses, even Latin lolcats.
+[Laura Gibbs](http://bestlatin.blogspot.com.au/) is another inspirational teacher who has lots of Latin resources such us 1001 Fables and Vulgate Verses, even Latin lolcats (which appear at the top of this post).
+
+The Fabula Facilis collection is a good place to start:
+
+<script type="text/javascript"> var display = " " </script><script type="text/javascript" src="http://widgets.bestmoodle.net/scripts/faciles.js"></script>
+
+Also the [Fabulae Vulgatae](http://mythfolklore.net/bible) is very handy too.
 
 So, this has turned into a laundry list of resources.  I feel like I've been waiting for the perfect one, and really all I had to see was that I am learning along the way and no one has a magic wand.  If I can be an enthusiastic Latin teacher then that will be the biggest help to my students.
-
-This morning after a lesson from Latin with Laughter, one son asked "What's Latin for snoring" so I looked it up and we went through how you would say you snore (stertes), I snore (sterto) and so on.
 
 Latin washes over us on a daily basis, thanks to our daily prayers: the Rosary, Prime from the Little Office of the Blessed Virgin Mary and Roman Compline.  Each week we have the Latin of the Mass.  If we just keep our eyes and ears open and think, then there will be manifold opportunities for growing in understanding.
