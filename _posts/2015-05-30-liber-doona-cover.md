@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Liber Doona Cover
 category: Music
 ---
