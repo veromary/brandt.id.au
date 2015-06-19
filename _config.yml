@@ -10,3 +10,7 @@ GOOGLE_ANALYTICS: UA-39801667-1
 DISQUS_SITENAME: brandtlab
 
 FEED_RSS: http://feeds.feedburner.com/brandtlab
+
+collections:
+  biblestudy:
+    output: true

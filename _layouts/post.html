@@ -6,6 +6,19 @@ layout: fullwidth
 <div class="row">
 <div class="col-sm-2">
 <p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">
+{% if page.previous %}
+        <a class="pagination-item" href="{{ site.baseurl }}{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>
+    {% else %}
+      <span class="pagination-item disabled">Previous</span>
+    {% endif %}
+|
+    {% if page.next %}
+      <a class="pagination-item" href="{{ site.baseurl }}{{ page.next.url }}">Next: {{ page.next.title }}</a>
+    {% else %}
+      <span class="pagination-item disabled">Next</span>
+    {% endif %}
+</p>
 <p class="meta">{% if page.tag %}tagged <a href="{{ site.url }}/{{ page.tags }}">{{ page.tags }}</a>{% endif %} {% if page.category %} filed under <a href="{{ site.url }}/{{ page.categories | slugize }}">{{ page.category }}</a>{% endif %}</p>
 <div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-layout="button" data-action="like" data-show-faces="false" data-share="true" style="vertical-align:top;zoom:1;*display:inline"></div>
 
@@ -18,7 +31,17 @@ layout: fullwidth
 <div class="post">
 {{ content }}
 
-
+  <h3 class="related-post-title">Related Posts</h3>
+<div class="row">
+  {% for post in site.related_posts %}
+    <div class="col-md-3 col-sm-4 col-xs-6">
+      <a href="{{ post.url | prepend: site.baseurl }}" >
+        {{ post.title }}
+        <p class="post-summary">{{ post.summary }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
 </div>
 
 <div id="fb-root"></div>

@@ -41,4 +41,5 @@ So if I'm working with multiples of 440x730, then for my image to be big enough 
 
 I guess the next question is, where to find a suitable photo!
 
+**UPDATE:** the finished product is [available here](http://www.redbubble.com/people/veronicabrandt/works/15071278)
 

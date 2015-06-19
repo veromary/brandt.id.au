@@ -4,7 +4,7 @@ title: Educational TV
 category: Education
 ---
 
-![ABC TV education]({{ site.url }}/images/abctved.png){: .align-right}
+![ABC TV education]({{ site.url }}/images/abctved.png)
 Sometimes you can actually find useful things from the National Broacaster.
 
 At the moment we're following two programs:
